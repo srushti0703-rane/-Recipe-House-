@@ -1,0 +1,185 @@
+<!-- Updated index.html file with enhancements -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>| Recipe House |</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <button id="theme-toggle">🌙 Dark Mode</button>
+    <div class="header-content">
+      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Logo" class="logo-img" />
+      <h1 class="logo">Recipe House 🍽️</h1>
+    </div>
+  </header>
+
+  <!-- Chef Banner -->
+ <section class="hero-banner" style="text-align: center;">
+  <img src="./img/cook.jpg" class="logoc" alt="Chef Cooking" />
+</section>
+
+
+  <!-- Search and Filters -->
+  <section class="search-section">
+    <input type="text" id="search" placeholder="Search recipes by name or ingredient..." />
+    <div class="buttons">
+      <button onclick="filterRecipes('all')">All</button>
+      <button onclick="filterRecipes('veg')">Veg</button>
+      <button onclick="filterRecipes('non-veg')">Non-Veg</button>
+    </div>
+    <button onclick="scrollToForm()" class="scroll-btn">⬇️ Add/Edit Recipe</button>
+  </section>
+
+
+
+
+
+
+  <!-- Recipes Slider Section -->
+  <section class="recipes" id="recipe-list"></section>
+
+
+
+
+<small>
+ Take image URL from here 👉 <a href="https://unsplash.com/s/photos/food" target="_blank" style="color: #ff5722;">Browse food photos</a>
+</small>
+
+
+
+
+
+
+  <!-- Add Recipe Form -->
+  <section class="add-recipe">
+    <h2>Add Your Recipe</h2>
+    <form id="recipe-form">
+      <input type="text" id="new-name" placeholder="Recipe Name" required />
+      <input type="text" id="new-category" placeholder="Category (veg/non-veg)" required />
+      <textarea id="new-ingredients" placeholder="Ingredients (comma separated)" required></textarea>
+      <textarea id="new-instructions" placeholder="Step by Step Instructions" required></textarea>
+      <input type="text" id="new-img" placeholder="Image URL" required />
+      <button type="submit">Add Recipe</button>
+    </form>
+  </section>
+
+  
+  <!-- Popup Modal -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <span id="close-popup">&times;</span>
+      <img id="popup-img" src="" alt="" />
+      <h2 id="popup-title"></h2>
+      <p id="popup-category"></p>
+      <h3>Ingredients</h3>
+      <ul id="popup-ingredients"></ul>
+      <h3>Instructions</h3>
+      <ol id="popup-instructions"></ol>
+      <div class="rating">
+        <h3>Rate this recipe:</h3>
+        <span class="star" onclick="rate(1)">&#9733;</span>
+        <span class="star" onclick="rate(2)">&#9733;</span>
+        <span class="star" onclick="rate(3)">&#9733;</span>
+        <span class="star" onclick="rate(4)">&#9733;</span>
+        <span class="star" onclick="rate(5)">&#9733;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+ <script src="script_api.js"></script>
+
+<body>
+  <div id="page-wrap" class="page-wrap">
+    <!-- keep ALL your page content here: header, search, recipe-list, form, etc. -->
+    <!-- ... -->
+  </div>
+
+  <!-- Recipe Popup (keep this outside page-wrap) -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <span id="close-popup" aria-label="Close">&times;</span>
+
+      <img id="popup-img" alt="" class="popup-img" />
+      <h2 id="popup-title"></h2>
+      <p id="popup-category"></p>
+
+      <h3>Ingredients</h3>
+      <ul id="popup-ingredients"></ul>
+
+      <h3>Instructions</h3>
+      <ol id="popup-instructions"></ol>
+
+      <div class="rating">
+        <h3>Rate this recipe:</h3>
+        <div class="stars">
+          <span class="star" onclick="rate(1)">&#9733;</span>
+          <span class="star" onclick="rate(2)">&#9733;</span>
+          <span class="star" onclick="rate(3)">&#9733;</span>
+          <span class="star" onclick="rate(4)">&#9733;</span>
+          <span class="star" onclick="rate(5)">&#9733;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- keep ONLY this script -->
+<script src="script_api.js?v=111"></script>
+
+
+
+
+</body>
+
+<!-- Recipe Popup -->
+<div id="popup" class="popup hidden">
+  <div class="popup-content">
+    <span id="close-popup" aria-label="Close">&times;</span>
+
+    <img id="popup-img" src="" alt="" class="popup-img" />
+    <h2 id="popup-title"></h2>
+    <p id="popup-category"></p>
+
+    <h3>Ingredients</h3>
+    <ul id="popup-ingredients"></ul>
+
+    <h3>Instructions</h3>
+    <ol id="popup-instructions"></ol>
+
+    <div class="rating">
+      <h3>Rate this recipe:</h3>
+      <div class="stars">
+        <span class="star" onclick="rate(1)">&#9733;</span>
+        <span class="star" onclick="rate(2)">&#9733;</span>
+        <span class="star" onclick="rate(3)">&#9733;</span>
+        <span class="star" onclick="rate(4)">&#9733;</span>
+        <span class="star" onclick="rate(5)">&#9733;</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- keep only this script tag (remove old script.js) -->
+<script src="script_api.js?v=100"></script>
+
+
+</body>
+<body>
+  <div id="page-wrap" class="page-wrap">
+    <!-- header, search, filter buttons, and -->
+    <section class="recipes" id="recipe-list"></section>
+    <!-- add-recipe form, etc. -->
+  </div>
+
+  <!-- popup stays OUTSIDE page-wrap -->
+  <div id="popup" class="popup hidden">…</div>
+  <script src="script_api.js?v=111"></script>
+</body>
+
+</html>
