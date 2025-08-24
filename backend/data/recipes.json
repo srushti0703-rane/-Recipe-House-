@@ -1,0 +1,213 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Curry",
+    "category": "non-veg",
+    "rating": 4,
+    "ingredients": [
+      "chicken",
+      "onion",
+      "tomato",
+      "spices"
+    ],
+    "instructions": "1. Marinate chicken with spices.\n2. Fry onions until golden.\n3. Add tomatoes and cook till soft.\n4. Add chicken and simmer.\n5. Serve hot with rice.",
+    "image": "/img/spicy-chicken-curry.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Grilled Fish",
+    "category": "non-veg",
+    "rating": 4,
+    "ingredients": [
+      "fish",
+      "lemon",
+      "garlic",
+      "spices"
+    ],
+    "instructions": "1. Marinate fish with lemon and garlic.\n2. Grill until golden.\n3. Serve with chutney or salad.",
+    "image": "/img/Grilled-Whole-Fish-tight.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Paneer Butter Masala",
+    "category": "veg",
+    "rating": 1,
+    "ingredients": [
+      "paneer",
+      "butter",
+      "cream",
+      "tomato",
+      "spices"
+    ],
+    "instructions": "1. Fry paneer cubes.\n2. Make tomato gravy.\n3. Add butter, cream, and simmer with paneer.",
+    "image": "/img/Paneer Butter Masala.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Veg Biryani",
+    "category": "veg",
+    "rating": 0,
+    "ingredients": [
+      "rice",
+      "vegetables",
+      "yogurt",
+      "spices"
+    ],
+    "instructions": "1. Cook vegetables with spices.\n2. Layer with rice.\n3. Steam and serve hot.",
+    "image": "/img/Veg Biryani.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Egg Curry",
+    "category": "non-veg",
+    "rating": 0,
+    "ingredients": [
+      "eggs",
+      "onion",
+      "tomato",
+      "spices"
+    ],
+    "instructions": "1. Boil eggs.\n2. Fry onions and tomatoes.\n3. Add spices and eggs.\n4. Simmer for 10 minutes.",
+    "image": "/img/Egg Curry.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Aloo Paratha",
+    "category": "veg",
+    "rating": 0,
+    "ingredients": [
+      "potato",
+      "flour",
+      "spices",
+      "ghee"
+    ],
+    "instructions": "1. Make aloo stuffing.\n2. Fill in dough.\n3. Roast with ghee.",
+    "image": "/img/Aloo Paratha.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Palak Paneer",
+    "category": "veg",
+    "rating": 0,
+    "ingredients": [
+      "spinach",
+      "paneer",
+      "cream",
+      "spices"
+    ],
+    "instructions": "1. Blanch spinach.\n2. Make puree and cook with paneer and spices.",
+    "image": "/img/Palak Paneer.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Butter Chicken",
+    "category": "non-veg",
+    "rating": 0,
+    "ingredients": [
+      "chicken",
+      "butter",
+      "cream",
+      "tomato",
+      "spices"
+    ],
+    "instructions": "1. Grill marinated chicken.\n2. Cook in buttery tomato gravy.\n3. Add cream and simmer.",
+    "image": "/img/Butter Chicken.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Chole Bhature",
+    "category": "veg",
+    "rating": 0,
+    "ingredients": [
+      "chickpeas",
+      "flour",
+      "onion",
+      "spices"
+    ],
+    "instructions": "1. Cook chole masala.\n2. Fry bhature.\n3. Serve hot.",
+    "image": "/img/chole bhature.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Mutton Rogan Josh",
+    "category": "non-veg",
+    "rating": 0,
+    "ingredients": [
+      "mutton",
+      "yogurt",
+      "onion",
+      "spices"
+    ],
+    "instructions": "1. Cook mutton with spices.\n2. Add yogurt gravy.\n3. Simmer till tender.",
+    "image": "/img/Mutton Rogan Josh.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Masala Dosa",
+    "category": "veg",
+    "rating": 0,
+    "ingredients": [
+      "rice",
+      "dal",
+      "potato",
+      "spices"
+    ],
+    "instructions": "1. Make dosa batter.\n2. Prepare aloo filling.\n3. Cook and stuff dosas.",
+    "image": "/img/Masala Dosa.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Fish Fry",
+    "category": "non-veg",
+    "rating": 0,
+    "ingredients": [
+      "fish",
+      "spices",
+      "rice flour"
+    ],
+    "instructions": "1. Marinate fish.\n2. Coat with flour.\n3. Deep fry till golden.",
+    "image": "/img/paplet Fish Fryjpg.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Mix Veg Curry",
+    "category": "veg",
+    "rating": 0,
+    "ingredients": [
+      "mixed vegetables",
+      "onion",
+      "tomato",
+      "spices"
+    ],
+    "instructions": "1. Sauté veggies.\n2. Cook gravy and combine.\n3. Serve with rice or roti.",
+    "image": "/img/Mix Veg Curry.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Tandoori Chicken",
+    "category": "non-veg",
+    "rating": 5,
+    "ingredients": [
+      "chicken",
+      "yogurt",
+      "spices"
+    ],
+    "instructions": "1. Marinate chicken in yogurt mix.\n2. Bake or grill.\n3. Serve with onions.",
+    "image": "/img/Tandoori Chicken.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Dal Tadka",
+    "category": "veg",
+    "rating": 0,
+    "ingredients": [
+      "dal",
+      "onion",
+      "tomato",
+      "ghee",
+      "spices"
+    ],
+    "instructions": "1. Boil dal.\n2. Make tadka.\n3. Combine and serve hot.",
+    "image": "/img/Dal Tadka.jpg"
+  }
+]
